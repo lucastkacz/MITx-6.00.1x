@@ -18,7 +18,6 @@ def calculate_balance_fixed(balance, rate, fixedPaymet):
         balance_i = u_balance_i + interest_i
     return balance_i
 
-
 lowest_payment = 10
 while calculate_balance_fixed(balance, rate, lowest_payment) > 0:
     lowest_payment += 10

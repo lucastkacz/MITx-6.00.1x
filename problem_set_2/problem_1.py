@@ -20,4 +20,5 @@ for _ in range(amount_periods):
     interest_i = (rate * u_balance_i)
     balance_i = u_balance_i + interest_i
 
+
 print('Remaining balance: %s' % round(balance_i, 2))
