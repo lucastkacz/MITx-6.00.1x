@@ -1,5 +1,7 @@
 """
 We can make this program run faster using a technique introduced in lecture - bisection search!
+    >>> balance - the outstanding balance on the credit card
+    >>> annualInterestRate - annual interest rate as a decimal
 """
 
 balance = 999999
